@@ -12,10 +12,10 @@ public class PreInPost {
 
     public static void pip(int n) {
         if (n == 0) return;
-        System.out.println(n);  //Pre
+        System.out.println("Pre "+n);  //Pre
         pip(n - 1);
-        System.out.println(n); // In
+        System.out.println("in " +n); // In
         pip(n - 1);
-        System.out.println(n);  //post
+        System.out.println("Post "+n);  //post
     }
 }
